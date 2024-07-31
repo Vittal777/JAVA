@@ -1,13 +1,8 @@
 import java.util.*;
 class Bubsort{
     public static void main(String[] args) {
-        int n=10;
-        int[] numbers=new int[n];
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter array values");
-	for(int i=0;i<n;i++){
-        numbers[i]=sc.nextInt();
-	}
+	int n=5;
+        int[] numbers={8,6,5,2,1};
         for(int i=0;i<n-1;i++){
             for(int j=0;j<n-i-1;j++){
                 if(numbers[j]>numbers[j+1]){
